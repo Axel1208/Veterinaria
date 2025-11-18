@@ -1,0 +1,118 @@
+
+.contenedor{
+    margin: auto;
+    width: 90%;
+    height: auto;
+    
+    
+}
+
+header{
+    
+    width: 100%;
+    border: black 1px solid;
+    border-radius: 10px;
+    padding: auto;
+    display: flex;
+    
+    
+    
+
+}
+.imagen_huellas{
+    height: 2%;
+    width: 30%;
+    float: left;
+   
+}
+.principal{
+    width: 40%;
+    float: left;
+    
+}
+
+
+#imagen_1{
+    width: 30%;
+    float: right; 
+    display: flex;
+     justify-content: center;
+    align-items: center;
+   
+}
+
+li{
+    width: 100%;
+    border: black solid 1px;
+    border-radius: 10px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(157, 153, 153);
+}
+
+.section_1{
+    padding: 20px;
+    width: 50%;
+    float: left;
+
+}
+
+article{
+    padding: 10px;
+    margin: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 2px;
+    background-color: rgb(221, 219, 217);
+    text-align: left;
+}
+
+
+aside{
+    box-sizing: border-box;
+    width: 40%;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    float: right;
+    padding-top: 30px;
+    padding: 8%;
+    background-color: rgb(221, 219, 217);
+    border: solid black 1px;
+    border-radius: 10px;
+}
+
+footer{
+    width: 100%;
+    float: left;
+    margin-top: 25px;
+    text-align: center;
+    padding: 20px;
+}
+
+#Cuidados{
+    width: 90px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid black;
+    float: left;
+    margin-right: 5px;
+}
+
+#viaje{
+    width: 90px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid black;
+    float: left;
+    margin-right: 5px;
+}
+
+p{
+    padding: 8px;
+    text-align: justify;
+}
